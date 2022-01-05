@@ -62,11 +62,11 @@ Cuckoo assumes QEMU disks are qcow2 and are created with the `lazy_refcounts=on,
 the configured machine disk as the backing disk.
 
 ###### Required system packages
-- `qemu-system-x86_64`
+- `qemu-system-x86-64`
 - `qemu-utils`
 
 ```bash
-sudo apt install qemu-system-x86_64 qemu-utils
+sudo apt install qemu-system-x86-64 qemu-utils
 ```
 
 
